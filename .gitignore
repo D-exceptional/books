@@ -1,0 +1,22 @@
+# ====================
+# Assets Folder Rules
+# ====================
+# assets/*
+# !assets/css/
+# !assets/js/
+# !assets/img/
+ 
+# ====================
+# Other Folder Rules
+# ====================
+attachments/
+uploads/
+vendor/
+node_modules/
+# storage/logs/*
+# storage/cache/*
+
+# ================================
+# Prevent env from uploading
+# ================================
+.env

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book Launch</title>
+  <meta name="description" content="Our book is launching soon. Subscribe for updates." />
+  <link href="assets/css/launch.css" rel="stylesheet">
+  <!-- Sweetalert 2.0.0 Stylesheet -->
+  <link href="assets/css/sweetalert-4.1.1.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="wrap" role="main" aria-labelledby="comingSoonTitle">
+    <aside class="side" aria-label="Book cover section" role="region">
+      <img src="assets/img/cover.png" alt="Book Cover">
+      <!--
+          <div style="font-weight:700">Subscribe For Updates</div>
+          <form class="subscribe-form">
+            <input type="email" name="to" data-type="email" placeholder="Enter your email" class="form-control form-email" aria-label="Email address" required>
+            <button type="button" class="btn-subscribe">Subscribe</button>
+          </form>
+    
+          <div class="meta" style="margin-top:6px;">
+            <div class="small">No spam. Unsubscribe anytime.</div>
+          </div>
+    
+          <div style="margin-top:8px; display:flex; justify-content:flex-end;">
+            <div class="socials" aria-hidden="true">
+              <a href="#" title="Twitter">T</a>
+              <a href="#" title="GitHub">G</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+    
+          <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center;">
+            <div class="small">© <span id="year"></span> Austin Virtual Studio</div>
+            <div class="small">Privacy</div>
+          </div>
+          -->
+    </aside>
+
+    <section>
+      <div class="brand" aria-hidden="true">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Logo">
+        </div>
+        <div>
+          <div style="font-weight:700;text-align: left;">Austin Virtual Studio</div>
+          <div style="font-size:13px;color:var(--muted);text-align: left;">Book Launch</div>
+        </div>
+      </div>
+
+      <h1 id="comingSoonTitle">Book Launch!</h1>
+      <p class="lead">
+        Thanks for dropping by! We’re putting the finishing touches to our latest book, "<b>Before You Call It Love</b>". 
+        <br>
+        <br>
+        Secure your spot for early access and pre-order by clicking the button below:
+      </p>
+
+      <button type="button" class="btn-secure">Secure My Spot</button>
+
+      <div class="meta" style="margin-top:16px;">
+        <div class="dots" aria-hidden="true">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <div class="small">Launch Date: Mar. 10th 2026</div>
+      </div>
+
+      <p class="small" style="margin-top:18px;">
+        Limited slots available. Secure your spot now to be the first to know when we launch!
+        <br>
+        <br>
+        Pre-order ends in: <b>00 Hours : 00 Days : 00 Mins : 00 Secs</b>
+      </p>
+    </section>
+  </main>
+
+  <script src="assets/js/jquery-3.6.4.min.js"></script>
+  <script src="assets/js/sweetalert-2.6.0.min.js"></script>
+  <script src="assets/js/launch.js" type="module"></script>
+  <script>
+    // small JS just to set current year (optional, tiny)
+    // $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>
